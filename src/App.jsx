@@ -1,10 +1,16 @@
-import React from 'react'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/all'
+
+gsap.registerPlugin(ScrollTrigger)
 
 const App = () => {
   return (
-    <div>
+    <main>
+        <div>
+            <h1> Welcome to GTA world </h1>
+        </div>
       
-    </div>
+    </main>
   )
 }
 
